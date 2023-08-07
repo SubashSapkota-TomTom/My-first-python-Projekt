@@ -23,11 +23,11 @@ while num_of_guess < 5:
         
 
         else:
-            print(f"You guess the Right in {num_of_guess} tries. You Won, Thank you{player_name}for Playing with us!! ")
+            print(f"You guess the Right in {num_of_guess} tries. You Won, Thank you {player_name} for Playing with us!! ")
             break
              
     except:
         print("Invalid input, Try again")
 
-if num_of_guess > 5:
-    print(f"You didn't guess the right number. You Loss, Thank you {player_name}for Playing with us!! ")
+else:
+    print(f"You didn't guess the right number. You Loss, Thank you {player_name} for Playing with us!! ")
